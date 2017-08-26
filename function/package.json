@@ -1,0 +1,40 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "start": "",
+    "build": "webpack --watch",
+    "deploy": "firebase deploy --only functions",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "@google-cloud/common": "^0.13.4",
+    "@google-cloud/nodejs-repo-tools": "^1.4.17",
+    "@google-cloud/translate": "^1.0.0",
+    "@types/cors": "^2.8.1",
+    "api-ai-javascript": "^2.0.0-beta.14",
+    "apiai": "^4.0.3",
+    "arrify": "^1.0.1",
+    "cors": "^2.8.4",
+    "extend": "^3.0.1",
+    "firebase-admin": "^4.1.2",
+    "firebase-functions": "^0.5",
+    "is": "^3.2.1",
+    "request": "^2.81.0",
+    "yargs": "^8.0.2"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/request": "^2.0.2",
+    "ava": "^0.22.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.4.2",
+    "proxyquire": "^1.8.0",
+    "sinon": "^1.17.7",
+    "ts-loader": "^2.2.2",
+    "typescript": "^2.4.1",
+    "webpack": "^3.0.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
